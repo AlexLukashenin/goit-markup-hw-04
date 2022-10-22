@@ -252,7 +252,7 @@ a {
   padding-top: 94px;
   padding-bottom: 94px;
 }
-.list.team {
+.list.teams {
   display: flex;
   gap: 30px;
   background-color: var(--background-color);
