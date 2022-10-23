@@ -121,6 +121,7 @@ a {
   padding-top: 32px;
   padding-bottom: 32px;
   gap: 10px;
+  align-items: center;
 }
 .icon-maill {
   fill: currentColor;
