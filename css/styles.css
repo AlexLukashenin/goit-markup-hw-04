@@ -9,10 +9,11 @@
   --button-background-color: #2196f3;
   --accent-button-background-color: #188ce8;
   --accent-button-filter-background-color: #2196f3;
-  --hero-background-color: #2f303a;
+  --hero-background-color: #C4C4C4;
   --addres-link-color: rgba(255, 255, 255, 0.6);
   --accent-client-color: #2196f3;
   --client-color: #afb1b8;
+
 }
 p,
 h1,
@@ -136,6 +137,7 @@ a {
   padding-top: 200px;
   padding-bottom: 200px;
   text-align: center;
+  margin: 0px auto;
   background: var(--hero-background-color);
   background-image: linear-gradient(
       rgba(47, 48, 58, 0.4),
@@ -247,7 +249,7 @@ a {
   gap: 30px;
 }
 /*--------------- team -----------------*/
-.section.team {
+.section.team-work {
   background-color: var(--background-color);
   padding-top: 94px;
   padding-bottom: 94px;
@@ -474,10 +476,11 @@ a {
   gap: 30px;
 }
 .progect-link {
+  display: block;
   max-width: 370px;
 }
-.progect:hover,
-.progect:focus {
+.progect-link:hover,
+.progect-link:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
